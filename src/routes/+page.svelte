@@ -8,7 +8,11 @@
   const nextPageToken = videos.nextPageToken;
 </script>
 
-<h1 class="text-xl text-center">Duffman</h1>
+<h1
+  class="text-center text-6xl font-normal leading-normal mt-0 mb-2 text-pink-800"
+>
+  Duffman
+</h1>
 <div class="grid justify-items-center">
   {#each videos.items as video}
     <!-- content here -->
